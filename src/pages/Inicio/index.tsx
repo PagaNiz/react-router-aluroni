@@ -23,11 +23,11 @@ const Inicio = () => {
       <div className={styles.recomendados}>
         {pratosRecomendados.map(item => (
           <div key={item.id} className={styles.recomendado}>
-            <div className={styles.recomendadoImagem}>
+            <div className={styles.recomendado__imagem}>
               <img src={item.photo} alt={item.title} />
             </div>
             <button
-              className={styles.recomendadoBotao}
+              className={styles.recomendado__botao}
               onClick={() => redirecionarParaDetalhes(item)}
             >
               Ver mais
@@ -38,7 +38,7 @@ const Inicio = () => {
       <h3 className={stylesTema.titulo}> Nossa casa </h3>
       <div className={styles.nossaCasa}>
         <img src={nossaCasa} alt="Casa do Aluroni" />
-        <div className={styles.nossaCasaEndereco}>
+        <div className={styles.nossaCasa__endereco}>
           Rua Vergueiro, 3185 <br /> <br /> Vila Mariana - SP
         </div>
       </div>

@@ -26,7 +26,7 @@ const Sobre = () => {
       </div>
       <div className={styles.imagens}>
         {imagens.map((imagem, index) => (
-          <div key={index} className={styles.imagensImagem}>
+          <div key={index} className={styles.imagens__imagem}>
             <img src={imagem} alt="imagem de massa" />
           </div>
         ))}

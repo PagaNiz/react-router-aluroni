@@ -20,9 +20,9 @@ const Menu = () => {
   return (
     <nav className={styles.menu}>
       <Logo />
-      <ul className={styles.menuList}>
+      <ul className={styles.menu__list}>
         {rotas.map((rota, index) => (
-          <li key={index} className={styles.menuLink}>
+          <li key={index} className={styles.menu__link}>
             <Link to={rota.to}>
               {rota.label}
             </Link>

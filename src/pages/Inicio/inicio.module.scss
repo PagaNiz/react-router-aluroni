@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 .recomendado {
-  &Imagem {
+  &__imagem {
     width: 300px;
     margin-bottom: 10px;
     img {
@@ -16,7 +16,7 @@
       width: 100%;
     }
   }
-  &Botao {
+  &__botao {
     background-color: $red;
     border: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@
     border-radius: 5px;
     width: 100%;
   }
-  &Endereco {
+  &__endereco {
     align-items: center;
     background-color: $dark;
     border-radius: 5px;

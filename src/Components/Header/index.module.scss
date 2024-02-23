@@ -18,7 +18,7 @@
     @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
       padding: 0px $padding-horizontal-md;
     }
-    &Text {
+    &__text {
       color: white;
       font-size: 5rem;
       min-width: 400px;
